@@ -1,3 +1,3 @@
 # Today I Learned
 
-Goals: Record the knowledge that I learned today. 
+Goals: Write down the knowledge that I learned today. 

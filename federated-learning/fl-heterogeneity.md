@@ -1,12 +1,9 @@
 # Federated Learning Heterogeneity
 
-연합학습에서 데이터 이질성과 통계적 이질성은 서로 다른 개념입니다.
+In federated learning, data heterogeneity and statistical heterogeneity are different concepts.
 
-데이터 이질성(Data Heterogeneity)은 연합학습에서 참여하는 여러 기관에서 수집한 데이터의 특성이 다른 경우를 의미합니다. 이는 데이터가 수집된 기관이나 장소, 수집 방법 등에 따라 데이터의 특성이 다르기 때문에 발생할 수 있습니다. 예를 들어, 연합학습에서 다양한 의료 기관에서 수집한 환자의 의료 기록 데이터는 각각 다른 형식과 구조를 가질 수 있습니다. 이러한 데이터 이질성은 모델의 성능을 저하시키는 요인 중 하나입니다.
+Data heterogeneity refers to cases where the characteristics of the data collected by the various organizations participating in federated learning differ. This can happen because the characteristics of the data vary depending on the organization, location, and method of collection. For example, in federated learning, patients' medical history data collected from various healthcare institutions may have different formats and structures. This data heterogeneity is one of the factors that is degrading the performance of the model.
 
-반면, 통계적 이질성(Statistical Heterogeneity)은 연합학습에서 참여하는 기관의 데이터 셋의 크기, 분포, 분산, 라벨 비율 등이 서로 다른 경우를 의미합니다. 이는 데이터가 수집된 기관의 규모, 환경, 인구 통계학적 특성 등에 따라 발생할 수 있습니다. 예를 들어, 연합학습에서 다양한 지역에서 수집한 온도 데이터는 서로 다른 분포와 분산을 가질 수 있습니다. 이러한 통계적 이질성은 모델이 적합하지 않은 데이터를 학습하거나, 일반화 능력을 저하시키는 요인으로 작용할 수 있습니다.
+Statistical heterogeneity, on the other hand, is when the data sets of participating institutions in federated learning differ in size, distribution, variance, and label ratio. This can happen depending on the size, environment, and demographic characteristics of the institution from which the data was collected. For example, temperature data collected from various regions in federated learning may have different distributions and variances. This statistical heterogeneity can act as a factor for models to learn unsuitable data or to degrade their ability to generalize.
 
-따라서, 데이터 이질성과 통계적 이질성은 연합학습에서 고려해야 할 다른 요소입니다. 데이터 이질성은 데이터 자체의 특성을 나타내고, 통계적 이질성은 데이터 셋의 특성을 나타냅니다. 이러한 이질성을 줄이기 위해, 데이터 전처리, 데이터 셋의 평준화, 적절한 가중치 부여 등의 방법을 사용하여 모델의 성능을 향상시킬 수 있습니다.
-
-# Reference
-Written by ChatGPT.
+Thus, data heterogeneity and statistical heterogeneity are other factors to consider in federated learning. Data heterogeneity represents the characteristics of the data itself, and statistical heterogeneity represents the characteristics of the data set. To reduce this heterogeneity, the performance of the model can be improved using methods such as preprocessing data, leveling data sets, and appropriate weighting.
